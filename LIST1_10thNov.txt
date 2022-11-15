@@ -1,0 +1,63 @@
+a = list('abcd')
+
+a.extend('e')
+print(a)
+
+a.insert(1,1)
+a.insert(3,2)
+a.insert(5,3)
+a.insert(7,4)
+print(a)
+
+a.pop()
+print(a)
+
+a.remove('c')
+print(a)
+
+a.reverse()
+print(a)
+
+a.remove('d')
+a.remove('b')
+a.remove('a')
+
+a.sort()
+print(a)
+
+print(len(a))
+
+
+
+
+
+lst1 = list('VITCHENNAI')
+x = len(lst1)
+for i in range(x):
+        print(i,'and',i-x,'is',lst1[int(i)])
+
+
+
+
+n=int(input('Enter the number of elements in list:'))
+lst1 = []
+for i in range(n):
+    a = int(input("Enter the element:"))
+    lst1.append(a)
+print('total no of element:',len(lst1))
+
+oddcount = 0
+evencount = 0
+
+for i in lst1:
+    if i % 2 == 0:
+       evencount +=1
+    else:
+        oddcount +=1
+print('total no of even element:',evencount)
+print('total no of odd element:',oddcount)
+
+
+
+
+

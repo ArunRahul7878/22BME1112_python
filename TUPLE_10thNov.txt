@@ -1,0 +1,6 @@
+t = tuple('absdfc')
+print(t)
+print(len(t))
+t1= tuple('hello')
+t = t+t1
+print(t)
