@@ -1,0 +1,42 @@
+"""lst1 = list('hello world')
+print(lst1)
+t = tuple(lst1)
+print(t.count('l'))"""
+
+"""import random
+institution  = ('hari','arun','senthil','peri','manysh')
+for i,j in enumerate(institution):
+    r = random.randint(1,6)
+    print(r**2,j)"""
+    
+dict1 = {'helo':'woww','damnn':'broo','world':'!!!'}
+print(dict1['helo'])
+print(dict1.get('world'))
+dict1['giigii']  = 'zayn'
+print(dict1)
+dict1.pop('world')
+print(dict1.keys())
+print(dict1.values())
+print(dict1.get('damnn'))
+print(dict1)
+
+
+
+import random
+r = random.randint(1,10)
+
+dict1 = {'x':r**2,'y':r//2,'z':r-2}
+print(dict1)
+a = 1
+for i in dict1.values():
+    a*=i
+print(a) 
+
+
+d1 = {'x':1}
+d2 = {'y':2}
+d3 = {'z':3}
+
+d2.update(d3)
+d1.update(d2)
+print(d1)
